@@ -1,0 +1,199 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design System - Baralho da Ortografia */
+@layer base {
+  :root {
+    /* Colors - Fundo claro + Azul profundo + Cinza elegante */
+    --background: 0 0% 98%; /* Fundo claro e suave #FAFAFA */
+    --foreground: 215 25% 27%; /* Cinza escuro elegante #334155 */
+
+    --card: 0 0% 100%; /* Branco puro para cards */
+    --card-foreground: 215 25% 27%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 27%;
+
+    /* Azul profundo como cor principal */
+    --primary: 224 76% 48%; /* Azul profundo #1E40AF */
+    --primary-foreground: 0 0% 100%; /* Branco para contraste */
+
+    --secondary: 210 40% 98%; /* Cinza muito claro */
+    --secondary-foreground: 215 25% 27%;
+
+    --muted: 210 40% 98%;
+    --muted-foreground: 215 16% 47%; /* Cinza médio */
+
+    --accent: 214 100% 97%; /* Azul muito claro */
+    --accent-foreground: 224 76% 48%; /* Azul profundo */
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 32% 91%; /* Cinza claro para bordas */
+    --input: 214 32% 91%;
+    --ring: 224 76% 48%; /* Azul profundo para focus */
+
+    --radius: 0.75rem; /* Bordas mais arredondadas */
+  }
+
+  .dark {
+    --background: 222 84% 5%;
+    --foreground: 210 40% 98%;
+
+    --card: 217 33% 17%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 217 33% 17%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 222 84% 5%;
+
+    --secondary: 215 28% 17%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 215 28% 17%;
+    --muted-foreground: 217 11% 65%;
+
+    --accent: 224 71% 4%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 215 28% 17%;
+    --input: 215 28% 17%;
+    --ring: 217 91% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Tipografia personalizada */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+}
+
+@layer components {
+  /* Botões personalizados */
+  .btn-primary {
+    @apply bg-primary text-primary-foreground hover:bg-primary/90 focus:ring-2 focus:ring-primary focus:ring-offset-2;
+    @apply px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-200;
+    @apply shadow-lg hover:shadow-xl hover:scale-105 active:scale-95;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary text-secondary-foreground hover:bg-secondary/80;
+    @apply px-6 py-3 rounded-lg font-medium transition-all duration-200;
+    @apply border border-border hover:border-primary/20;
+  }
+
+  /* Cards personalizados */
+  .card-floating {
+    @apply bg-card border border-border rounded-2xl shadow-sm hover:shadow-md;
+    @apply transition-all duration-200 hover:-translate-y-1;
+  }
+
+  .card-highlight {
+    @apply bg-gradient-to-br from-accent to-card border border-primary/20 rounded-2xl;
+    @apply shadow-md hover:shadow-lg transition-all duration-200;
+  }
+
+  /* Seções com espaçamento generoso */
+  .section-spacing {
+    @apply py-16 md:py-20 lg:py-24;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Animações suaves */
+  .fade-in {
+    @apply animate-in fade-in-0 slide-in-from-bottom-4 duration-500;
+  }
+
+  .stagger-fade-in {
+    @apply animate-in fade-in-0 slide-in-from-bottom-8 duration-700;
+  }
+
+  /* Gradientes */
+  .bg-gradient-primary {
+    @apply bg-gradient-to-r from-primary to-primary/90;
+  }
+
+  .bg-gradient-accent {
+    @apply bg-gradient-to-r from-accent to-background;
+  }
+}
+
+/* Fontes do Google - Inter para clareza e modernidade */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* Animações personalizadas para a seção CTA */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-in-from-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.8s ease-out forwards;
+}
+
+.animate-slide-in {
+  animation: slide-in-from-bottom 0.8s ease-out forwards;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
