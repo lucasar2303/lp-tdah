@@ -47,7 +47,7 @@ const Index = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-center">
             <div className="flex items-center gap-2">
               <span className="font-bold text-xl">🔥</span>
-              <span className="font-bold text-2xl">80% OFF! Não deixe para depois!</span>
+              <span className="font-bold text-2xl">60% OFF! Não deixe para depois!</span>
             </div>
             
             <div className="flex items-center gap-3 bg-white/20 px-5 py-2 rounded-lg">
@@ -97,17 +97,17 @@ const Index = () => {
             </div>
             {/* Título principal com efeito de destaque */}
             <h3 className="text-4xl md:text-5xl font-bold text-white mb-4 animate-fade-in">
-              Quero garantir o meu
+              👉 Clique em Comprar Agora
             </h3>
             
             {/* Subtítulo com destaque */}
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto animate-fade-in" style={{animationDelay: '0.3s'}}>
-              Não perca essa oportunidade única de dominar a ortografia!
+              e descubra um novo caminho para lidar com o Autismo e o TDAH!
             </p>
                          {/* Botão CTA principal com efeitos */}
              <div className="animate-fade-in overflow-hidden py-4" style={{animationDelay: '0.6s'}}>
                <a 
-                 href="https://pay.hotmart.com/J98360473A?sck=organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR&checkoutMode=10&subid3=&subid4=&utm_campaign=&subid5=&utm_medium=&subid2=&subid=organic&utm_term=&sid2=&xcod=organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR&utm_source=organic&utm_content=&bid=1756204630466"
+                 href="https://pay.hotmart.com/G101450314D?off=0y0ya9jk&hotfeature=51&_hi=eyJjaWQiOiIxNzU2MjQzNDM3NDM1MTc3ODM5NzE4ODAwMTAwNDAwIiwiYmlkIjoiMTc1NjI0MzQzNzQzNTE3NzgzOTcxODgwMDEwMDQwMCIsInNpZCI6IjIwN2M1YzU5YjA0NTQ0MjJiMmQyYWJlZGM2ZjY5MWFhIn0=.1757090207715"
                  target="_blank"
                  rel="noopener noreferrer"
                  className="group relative inline-flex items-center gap-3 bg-gradient-to-r from-yellow-400 to-orange-500 text-white font-bold text-xl px-12 py-5 rounded-2xl shadow-2xl transition-all duration-300 hover:from-yellow-300 hover:to-orange-400 transform hover:scale-105 active:scale-95 overflow-hidden inline-block"
@@ -130,7 +130,6 @@ const Index = () => {
 
       
       <Benefits />
-      <Bonus />
       <Author />
       <Testimonials />
       <Guarantee />
@@ -144,7 +143,7 @@ const Index = () => {
               Perguntas Frequentes
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Tire suas dúvidas sobre o Baralho da Ortografia
+              Tire suas dúvidas sobre o E-Book de Autismo e TDAH
             </p>
           </div>
           
@@ -157,7 +156,7 @@ const Index = () => {
               >
                 <h3 className="text-xl font-bold text-foreground flex items-center gap-3">
                   <span className="w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-sm font-bold">1</span>
-                  Por que é tão barato?
+                  Para quem é esse conteúdo?
                 </h3>
                 <div className={`transition-transform duration-300 ${openFAQ === 0 ? 'rotate-180' : 'rotate-0'}`}>
                   <ChevronDown className="w-6 h-6 text-gray-500" />
@@ -174,10 +173,10 @@ const Index = () => {
                 <div className="px-6 pb-6 border-t border-gray-100">
                   <div className="text-muted-foreground leading-relaxed space-y-4 pt-4">
                     <p>
-                      <strong className="text-foreground">Excelente pergunta!</strong> Diante da realidade socioeconômica do nosso país onde muitos estudantes não têm acesso fácil a materiais de qualidade, decidi popularizar esse conhecimento para que o acesso seja amplo para todos!
+                      <strong className="text-foreground">Para pais, familiares, educadores e profissionais</strong> que lidam com Autismo e TDAH e buscam novas soluções baseadas na Ciência Integral.
                     </p>
                     <p>
-                      Além disso, caso você sinta que o material não é bom ou não lhe ajudou, o <strong className="text-foreground">Código de Defesa do Consumidor (Art.49)</strong> garante que você receba o seu reembolso em até 7 dias após a compra!
+                      O conteúdo é especialmente útil para quem quer uma abordagem que busca as causas profundas, integrando conhecimentos das ciências biológicas, humanas, espirituais e filosóficas.
                     </p>
                   </div>
                 </div>
@@ -192,7 +191,7 @@ const Index = () => {
               >
                 <h3 className="text-xl font-bold text-foreground flex items-center gap-3">
                   <span className="w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-sm font-bold">2</span>
-                  É possível aprender por meio de baralhos?
+                  Como funciona a garantia?
                 </h3>
                 <div className={`transition-transform duration-300 ${openFAQ === 1 ? 'rotate-180' : 'rotate-0'}`}>
                   <ChevronDown className="w-6 h-6 text-gray-500" />
@@ -209,7 +208,7 @@ const Index = () => {
                 <div className="px-6 pb-6 border-t border-gray-100">
                   <div className="text-muted-foreground leading-relaxed pt-4">
                     <p>
-                      Cada pessoa tem seu processo de aprendizagem. Contudo, se a pessoa utilizar a ferramenta conforme as instruções, a sua capacidade de memorização de conteúdo será muito maior do que se ela não usasse. Aqui não prometemos milagres, mas resultados a partir da aplicação de um método baseado cientificamente.
+                      Você tem até <strong className="text-foreground">7 dias para solicitar seu reembolso</strong>, sem burocracia. Se não gostar do conteúdo ou não ver resultados, devolvemos 100% do seu dinheiro sem perguntas.
                     </p>
                   </div>
                 </div>
@@ -224,7 +223,7 @@ const Index = () => {
               >
                 <h3 className="text-xl font-bold text-foreground flex items-center gap-3">
                   <span className="w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-sm font-bold">3</span>
-                  Já estudei ortografia antes. O material pode me ajudar?
+                  Recebo certificado digital?
                 </h3>
                 <div className={`transition-transform duration-300 ${openFAQ === 2 ? 'rotate-180' : 'rotate-0'}`}>
                   <ChevronDown className="w-6 h-6 text-gray-500" />
@@ -241,7 +240,7 @@ const Index = () => {
                 <div className="px-6 pb-6 border-t border-gray-100">
                   <div className="text-muted-foreground leading-relaxed pt-4">
                     <p>
-                      <strong className="text-foreground">Sem dúvidas!</strong> O material é um eficiente instrumento para revisão! Além disso, você pode descobrir detalhes da ortografia que não havia aprendido ainda!
+                      <strong className="text-foreground">Sim, você recebe um certificado de conclusão digital</strong> após a compra do e-book, validando seu acesso ao conhecimento sobre Autismo e TDAH baseado na Ciência Integral.
                     </p>
                   </div>
                 </div>
@@ -256,7 +255,7 @@ const Index = () => {
               >
                 <h3 className="text-xl font-bold text-foreground flex items-center gap-3">
                   <span className="w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-sm font-bold">4</span>
-                  Quanto tempo eu preciso utilizar o material para ter resultados?
+                  Como acessar o produto?
                 </h3>
                 <div className={`transition-transform duration-300 ${openFAQ === 3 ? 'rotate-180' : 'rotate-0'}`}>
                   <ChevronDown className="w-6 h-6 text-gray-500" />
@@ -273,7 +272,7 @@ const Index = () => {
                 <div className="px-6 pb-6 border-t border-gray-100">
                   <div className="text-muted-foreground leading-relaxed pt-4">
                     <p>
-                      Ao aplicar a estratégia, você já consegue perceber os primeiros efeitos nos primeiros <strong className="text-foreground">7 dias</strong>, porém, quanto maior o espaço de tempo utilizando a ferramenta, melhores serão os resultados!
+                      <strong className="text-foreground">Após a confirmação da compra, o acesso é liberado imediatamente</strong>. Você receberá um e-mail com o link para download do e-book e poderá acessar em qualquer dispositivo.
                     </p>
                   </div>
                 </div>
@@ -288,7 +287,7 @@ const Index = () => {
               >
                 <h3 className="text-xl font-bold text-foreground flex items-center gap-3">
                   <span className="w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-sm font-bold">5</span>
-                  O baralho serve para crianças e adolescentes em idade escolar?
+                  Como funciona o pagamento? É seguro?
                 </h3>
                 <div className={`transition-transform duration-300 ${openFAQ === 4 ? 'rotate-180' : 'rotate-0'}`}>
                   <ChevronDown className="w-6 h-6 text-gray-500" />
@@ -298,38 +297,6 @@ const Index = () => {
               <div 
                 className={`transition-all duration-500 ease-in-out overflow-hidden ${
                   openFAQ === 4 
-                    ? 'max-h-96 opacity-100' 
-                    : 'max-h-0 opacity-0'
-                }`}
-              >
-                <div className="px-6 pb-6 border-t border-gray-100">
-                  <div className="text-muted-foreground leading-relaxed pt-4">
-                    <p>
-                      <strong className="text-foreground">Com certeza!</strong> A ferramenta pode ser aplicada para ajudar estudantes na idade escolar.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            {/* FAQ Item 6 */}
-            <div className="card-floating bg-white shadow-lg border border-gray-100 overflow-hidden">
-              <button
-                onClick={() => toggleFAQ(5)}
-                className="w-full p-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-200"
-              >
-                <h3 className="text-xl font-bold text-foreground flex items-center gap-3">
-                  <span className="w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-sm font-bold">6</span>
-                  Como funciona o pagamento? É seguro?
-                </h3>
-                <div className={`transition-transform duration-300 ${openFAQ === 5 ? 'rotate-180' : 'rotate-0'}`}>
-                  <ChevronDown className="w-6 h-6 text-gray-500" />
-                </div>
-              </button>
-              
-              <div 
-                className={`transition-all duration-500 ease-in-out overflow-hidden ${
-                  openFAQ === 5 
                     ? 'max-h-96 opacity-100' 
                     : 'max-h-0 opacity-0'
                 }`}
@@ -346,59 +313,24 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            
-            {/* FAQ Item 7 */}
-            <div className="card-floating bg-white shadow-lg border border-gray-100 overflow-hidden">
-              <button
-                onClick={() => toggleFAQ(6)}
-                className="w-full p-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-200"
-              >
-                <h3 className="text-xl font-bold text-foreground flex items-center gap-3">
-                  <span className="w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-sm font-bold">7</span>
-                  Como recebo o produto?
-                </h3>
-                <div className={`transition-transform duration-300 ${openFAQ === 6 ? 'rotate-180' : 'rotate-0'}`}>
-                  <ChevronDown className="w-6 h-6 text-gray-500" />
-                </div>
-              </button>
-              
-              <div 
-                className={`transition-all duration-500 ease-in-out overflow-hidden ${
-                  openFAQ === 6 
-                    ? 'max-h-96 opacity-100' 
-                    : 'max-h-0 opacity-0'
-                }`}
-              >
-                <div className="px-6 pb-6 border-t border-gray-100">
-                  <div className="text-muted-foreground leading-relaxed space-y-4 pt-4">
-                    <p>
-                      Após a compra, você receberá um <strong className="text-foreground">e-mail para acessar o conteúdo</strong>. Por isso, é importante que coloque seu e-mail corretamente ao realizar a compra!
-                    </p>
-                    <p>
-                      Assim que a sua compra for confirmada, corra para seu e-mail e acesse o link recebido. Através dele você fará o seu registro na plataforma para baixar seu material!
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
           
           {/* CTA Final */}
           <div className="text-center mt-16">
             <div className="card-highlight p-8 inline-block">
               <h3 className="text-2xl font-bold text-foreground mb-4">
-                Ainda tem dúvidas?
+                🚀 Não perca essa oportunidade
               </h3>
               <p className="text-muted-foreground mb-6">
-                Entre em contato conosco ou aproveite nossa garantia de 7 dias!
+                Transforme conhecimento em prática e descubra novas formas de cuidar de quem você ama.
               </p>
               <a 
-                href="https://pay.hotmart.com/J98360473A?sck=organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR&checkoutMode=10&subid3=&subid4=&utm_campaign=&subid5=&utm_medium=&subid2=&subid=organic&utm_term=&sid2=&xcod=organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR&utm_source=organic&utm_content=&bid=1756204630466"
+                href="https://pay.hotmart.com/G101450314D?off=0y0ya9jk&hotfeature=51&_hi=eyJjaWQiOiIxNzU2MjQzNDM3NDM1MTc3ODM5NzE4ODAwMTAwNDAwIiwiYmlkIjoiMTc1NjI0MzQzNzQzNTE3NzgzOTcxODgwMDEwMDQwMCIsInNpZCI6IjIwN2M1YzU5YjA0NTQ0MjJiMmQyYWJlZGM2ZjY5MWFhIn0=.1757090207715"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary inline-block"
               >
-                Quero Garantir Minha Oferta
+                Comprar Agora
               </a>
             </div>
           </div>

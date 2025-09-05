@@ -7,50 +7,50 @@ const Testimonials = () => {
     {
       image: "/img/testimonials/testimonial-1.jpg",
       name: "Maria Santos",
-      role: "Mãe do João (12 anos)",
-      content: "Em 3 semanas, meu filho melhorou tanto na ortografia que até os professores notaram! O método é realmente incrível.",
+      role: "Mãe do João (8 anos, TDAH)",
+      content: "Em 2 meses seguindo as estratégias do e-book, meu filho reduziu 70% dos sintomas de hiperatividade! A abordagem integral realmente funciona.",
       rating: 5
     },
     {
       image: "/img/testimonials/testimonial-2.jpg",
-      name: "Prof. Carlos Silva",
-      role: "Professor de Português",
-      content: "Uso o baralho com meus alunos do 6º ano. A evolução é impressionante! Nunca vi uma ferramenta tão eficaz.",
+      name: "Dr. Carlos Silva",
+      role: "Pediatra",
+      content: "Recomendo este e-book para meus pacientes. A abordagem científica integral trouxe resultados que os tratamentos tradicionais não conseguiam.",
       rating: 5
     },
     {
       image: "/img/testimonials/testimonial-3.jpg",
       name: "Ana Oliveira",
-      role: "Coordenadora Pedagógica",
-      content: "Implementamos na nossa escola e os resultados superaram todas as expectativas. Os alunos adoram!",
+      role: "Mãe da Sofia (6 anos, Autismo)",
+      content: "Minha filha melhorou drasticamente na comunicação e interação social. As estratégias de alimentação fizeram toda a diferença!",
       rating: 5
     },
     {
       image: "/img/testimonials/testimonial-4.jpg",
       name: "Roberto Costa",
-      role: "Pai da Sofia (9 anos)",
-      content: "Minha filha tinha muita dificuldade com ortografia. Agora ela escreve com confiança e sem erros!",
+      role: "Pai do Pedro (10 anos, TDAH)",
+      content: "Finalmente encontrei uma abordagem que trata meu filho como um todo. Os resultados apareceram em poucas semanas!",
       rating: 5
     },
     {
       image: "/img/testimonials/testimonial-5.jpg",
       name: "Lucia Mendes",
-      role: "Mãe do Pedro (14 anos)",
-      content: "O baralho transformou o estudo da ortografia em algo divertido. Meu filho agora estuda por vontade própria!",
+      role: "Terapeuta Ocupacional",
+      content: "Uso as estratégias do e-book com meus pacientes. A melhora na concentração e comportamento é visível e duradoura.",
       rating: 5
     },
     {
       image: "/img/testimonials/testimonial-6.jpg",
       name: "Prof. Fernando Lima",
-      role: "Professor de Redação",
-      content: "Excelente ferramenta pedagógica! Meus alunos melhoraram significativamente na escrita em apenas 1 mês.",
+      role: "Professor de Educação Especial",
+      content: "Este e-book mudou minha forma de trabalhar com crianças no espectro. A abordagem integral é revolucionária!",
       rating: 5
     },
     {
       image: "/img/testimonials/testimonial-7.jpg",
       name: "Patricia Alves",
-      role: "Mãe da Beatriz (11 anos)",
-      content: "Finalmente encontrei algo que funciona! Minha filha agora escreve com muito mais segurança e poucos erros.",
+      role: "Mãe da Beatriz (12 anos, Autismo)",
+      content: "Minha filha reduziu 80% dos comportamentos repetitivos e melhorou muito na socialização. Estou eternamente grata!",
       rating: 5
     }
   ];
@@ -92,11 +92,11 @@ const Testimonials = () => {
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="mb-6 text-foreground">
-            O que dizem quem já usa
+            O que dizem quem já usou
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Depoimentos reais de pais, professores e estudantes que transformaram 
-            sua relação com a ortografia
+            Depoimentos reais de pais, familiares e profissionais que transformaram 
+            a vida de seus filhos e pacientes com Autismo e TDAH
           </p>
         </div>
         

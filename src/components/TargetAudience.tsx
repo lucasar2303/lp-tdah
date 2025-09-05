@@ -4,31 +4,31 @@ import { GraduationCap, Users, Heart, BookOpen, PenTool, Target } from "lucide-r
 const TargetAudience = () => {
   const audiences = [
     {
+      icon: Heart,
+      title: "Pais e Familiares",
+      subtitle: "Apoio integral",
+      description: "Que buscam novas formas de cuidar e apoiar seus filhos com Autismo e TDAH",
+      color: "from-pink-500 to-pink-600"
+    },
+    {
       icon: GraduationCap,
-      title: "Estudantes e Concurseiros",
-      subtitle: "Foco em resultados",
-      description: "Que querem melhorar o desempenho em redações, provas e concursos",
+      title: "Educadores",
+      subtitle: "Recursos práticos",
+      description: "Professores e coordenadores que querem estratégias eficazes para sala de aula",
       color: "from-blue-500 to-blue-600"
     },
     {
       icon: BookOpen,
-      title: "Professores",
-      subtitle: "Recursos dinâmicos",
-      description: "Que buscam um recurso dinâmico e interativo para ensinar ortografia",
+      title: "Profissionais da Saúde",
+      subtitle: "Abordagem integral",
+      description: "Terapeutas, psicólogos e médicos que buscam uma visão mais holística",
       color: "from-purple-500 to-purple-600"
     },
     {
-      icon: Heart,
-      title: "Pais",
-      subtitle: "Apoio ao aprendizado",
-      description: "Que desejam ajudar os filhos a aprender de forma leve e divertida",
-      color: "from-pink-500 to-pink-600"
-    },
-    {
-      icon: PenTool,
-      title: "Profissionais e Pessoas",
-      subtitle: "Escrita perfeita",
-      description: "Ou qualquer pessoa que queira escrever sem erros e superar dificuldades com a língua portuguesa",
+      icon: Users,
+      title: "Cuidadores",
+      subtitle: "Conhecimento prático",
+      description: "Pessoas que trabalham diretamente com crianças e jovens no espectro",
       color: "from-green-500 to-green-600"
     }
   ];
@@ -38,10 +38,10 @@ const TargetAudience = () => {
       <div className="container-custom">
         <div className="text-center mb-16 fade-in">
           <h2 className="mb-6 text-foreground">
-            Para quem é o Baralho da Ortografia?
+            Para quem é esse conteúdo?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Nossa metodologia foi desenvolvida para diferentes perfis que buscam dominar a ortografia
+            Para pais, familiares, educadores e profissionais que lidam com Autismo e TDAH e buscam novas soluções
           </p>
         </div>
         

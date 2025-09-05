@@ -31,15 +31,16 @@ const FinalCTA = () => {
             </div>
             
             <h2 className="mb-8 text-white text-4xl md:text-5xl font-bold leading-tight">
-              Comece sua jornada rumo ao{' '}
+              Reduza os Sintomas de{' '}
               <span className="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
-                domínio da ortografia
-              </span>
+                Autismo e TDAH
+              </span>{' '}
+              em até 80%
             </h2>
             
             <p className="text-xl text-blue-100 mb-8 leading-relaxed max-w-3xl mx-auto">
-              Junte-se a milhares de estudantes que já transformaram sua relação com a escrita. 
-              Sua nova confiança na ortografia está a um clique de distância!
+              Junte-se a milhares de famílias que já transformaram a vida de seus filhos com Autismo e TDAH. 
+              Sua nova esperança está a um clique de distância!
             </p>
           </div>
           
@@ -48,18 +49,18 @@ const FinalCTA = () => {
             {/* Comparação de preços */}
             <div className="grid md:grid-cols-3 gap-8 mb-10">
               <div className="text-center p-6 bg-gray-50 rounded-2xl">
-                <div className="text-4xl font-bold text-gray-400 line-through mb-2">R$ 49,80</div>
+                <div className="text-4xl font-bold text-gray-400 line-through mb-2">R$ 49,90</div>
                 <div className="text-sm text-gray-500">Valor individual</div>
               </div>
               
               <div className="text-center p-6 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl border-2 border-blue-200">
                 <div className="text-sm text-blue-600 mb-2 font-semibold">Oferta especial</div>
-                <div className="text-5xl font-bold text-blue-600">R$ 10,00</div>
+                <div className="text-5xl font-bold text-blue-600">R$ 19,99</div>
                 <div className="text-sm text-blue-500">Por tempo limitado</div>
               </div>
               
               <div className="text-center p-6 bg-green-50 rounded-2xl">
-                <div className="text-4xl font-bold text-green-600 mb-2">80%</div>
+                <div className="text-4xl font-bold text-green-600 mb-2">60%</div>
                 <div className="text-sm text-green-600 font-semibold">de desconto</div>
               </div>
             </div>
@@ -74,15 +75,15 @@ const FinalCTA = () => {
                 <div className="space-y-2">
                   <div className="flex items-center gap-3">
                     <CheckCircle className="w-5 h-5 text-green-500" />
-                    <span className="text-sm text-gray-700">Baralho da Ortografia (56 flashcards)</span>
+                    <span className="text-sm text-gray-700">E-Book completo sobre Autismo e TDAH</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <CheckCircle className="w-5 h-5 text-green-500" />
-                    <span className="text-sm text-gray-700">Baralho dos Sinais de Pontuação (30 cartões) - GRÁTIS</span>
+                    <span className="text-sm text-gray-700">Abordagem baseada na Ciência Integral</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <CheckCircle className="w-5 h-5 text-green-500" />
-                    <span className="text-sm text-gray-700">Acesso imediato e vitalício</span>
+                    <span className="text-sm text-gray-700">Estratégias práticas de alimentação e suplementação</span>
                   </div>
                 </div>
               </div>
@@ -117,12 +118,12 @@ const FinalCTA = () => {
               </div>
               
               <a 
-                href="https://pay.hotmart.com/J98360473A?sck=organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR&checkoutMode=10&subid3=&subid4=&utm_campaign=&subid5=&utm_medium=&subid2=&subid=organic&utm_term=&sid2=&xcod=organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR&utm_source=organic&utm_content=&bid=1756204630466"
+                href="https://pay.hotmart.com/G101450314D?off=0y0ya9jk&hotfeature=51&_hi=eyJjaWQiOiIxNzU2MjQzNDM3NDM1MTc3ODM5NzE4ODAwMTAwNDAwIiwiYmlkIjoiMTc1NjI0MzQzNzQzNTE3NzgzOTcxODgwMDEwMDQwMCIsInNpZCI6IjIwN2M1YzU5YjA0NTQ0MjJiMmQyYWJlZGM2ZjY5MWFhIn0=.1757090207715"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative inline-flex items-center gap-3 bg-gradient-to-r from-blue-600 to-indigo-700 text-white font-bold text-xl px-12 py-6 rounded-2xl shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 hover:scale-105 active:scale-95 overflow-hidden mb-6 inline-block"
               >
-                <span className="relative z-10">Garantir Acesso Agora</span>
+                <span className="relative z-10">Comprar Agora</span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform duration-300" />
                 
                 {/* Efeito de brilho */}
@@ -151,7 +152,7 @@ const FinalCTA = () => {
           <div className="bg-gradient-to-r from-red-500 to-pink-600 text-white p-6 rounded-2xl shadow-xl border border-red-400/50">
             <p className="text-lg font-semibold">
               🎯 <strong>Última chance:</strong> Esta oferta especial pode sair do ar a qualquer momento. 
-              Não perca a oportunidade de transformar sua ortografia hoje mesmo!
+              Não perca a oportunidade de transformar a vida de quem você ama hoje mesmo!
             </p>
           </div>
         </div>

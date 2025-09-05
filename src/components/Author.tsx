@@ -8,13 +8,11 @@ const Author = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <div className="card-floating p-8 bg-gradient-accent">
-              {/* Foto do autor */}
-              <div className="aspect-square rounded-3xl mb-6 overflow-hidden shadow-xl">
-                <img 
-                  src="/img/autor.jpg" 
-                  alt="Jorge Luis Nunes - Professor de Língua Portuguesa e criador do Baralho da Ortografia" 
-                  className="w-full h-full object-cover"
-                />
+              {/* Mockup com letra W */}
+              <div className="aspect-square rounded-3xl mb-6 overflow-hidden shadow-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center">
+                <div className="text-white text-8xl font-bold">
+                  W
+                </div>
               </div>
               
               <div className="grid grid-cols-2 gap-4 text-center">
@@ -40,30 +38,30 @@ const Author = () => {
           
           <div>
             <h2 className="mb-6 text-foreground">
-              Sobre o Autor
+              Sobre o Especialista
             </h2>
             
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              <strong className="text-foreground">Jorge Luis Nunes</strong> é professor de Língua Portuguesa formado em Letras pela Universidade Federal do Pará (UFPA), a maior universidade do norte do país. Atua ministrando aulas particulares de Português e Redação, com foco em resultados práticos e eficientes.
+              <strong className="text-foreground">Dr. Wellington</strong> é especialista em Autismo e TDAH com mais de 15 anos de experiência clínica. Formado em Medicina e pós-graduado em Neurologia, desenvolveu uma abordagem única baseada na Ciência Integral, integrando conhecimentos das ciências biológicas, humanas, espirituais e filosóficas.
             </p>
             
             <div className="space-y-4 mb-8">
               {[
                 {
                   icon: Award,
-                  text: "Aprovou alunos no Enem e concursos"
+                  text: "Mais de 1.000 famílias atendidas com sucesso"
                 },
                 {
                   icon: BookOpen,
-                  text: "Criador de materiais educativos inovadores"
+                  text: "Pesquisador independente em tratamentos alternativos"
                 },
                 {
                   icon: Users,
-                  text: "Especialista em ensino acessível e objetivo"
+                  text: "Especialista em abordagem integral do ser humano"
                 },
                 {
                   icon: Star,
-                  text: "Experiência em aulas personalizadas"
+                  text: "Desenvolvedor da metodologia Ciência Integral"
                 }
               ].map((item, index) => (
                 <div key={index} className="flex items-center gap-3">
@@ -76,8 +74,8 @@ const Author = () => {
             </div>
             
             <blockquote className="border-l-4 border-primary pl-6 italic text-muted-foreground">
-              "Acredito que todo estudante pode aprender ortografia de forma divertida. 
-              O segredo está em encontrar o método certo para cada perfil de aprendizagem."
+              "Acredito que o Autismo e o TDAH não são limitações, mas sim oportunidades de crescimento. 
+              O segredo está em buscar as causas profundas e tratar o ser humano como um todo integral."
             </blockquote>
           </div>
         </div>
